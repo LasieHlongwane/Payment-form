@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/release/v5.5.0/css/all.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <form action="">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="title">RAPHA PATIENT</h3>
+                        <div class="inputBox">
+                            <span> Name on card :</span>
+                            <input type="text" placeholder="Name & Surname">
+                            <i class="far fa-credit-card"></i>
+                        </div>
+                        <div class="inputBox">
+                            <span>Email Address:</span>
+                            <input type="text" placeholder="example@example.com">
+                    </div>
+            </form>
+        </div>
+        <div class="col">
+            <h3 class="title">Payment Details</h3>
+            <div class="inputBox">
+                <span> Cards Accepted :</span>
+                <img src="OIP.jpg"alt="">
+            </div>
+            <div class="inputBox">
+                <span>credit card number :</span>
+                <input type="number" placeholder="16 digits" data-mask="0000000000000000">
+                <i class="far fa-credit-card"></i>
+        </div>
+        <div class="inputBox">
+            <span>CVV:</span>
+            <input type="number" placeholder="0000" data-mask="0000">
+    </div>
+    <div class="inputBox">
+        <span>expiry date:</span>
+        <input type="number" placeholder="00/00" data-mask="00/00">
+</div>
+  <input type="submit" value="proceed to checkout" class="submit-btn">
+</form>
+</div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+
+    </body>
+</html>
